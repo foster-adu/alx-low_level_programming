@@ -1,9 +1,10 @@
-#include
+#include <stdio.h>
 
 /**
- * main - main function
+ * main - print the size of data types
  *
- * Return: 0 when successful
+ * Return: always (0)
+ *
  */
 
 int main(void)
@@ -11,7 +12,7 @@ int main(void)
 	char a;
 	int b;
 	long int c;
-	long long d;
+	long long int d;
 	float f;
 
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
