@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
-* @h: name of the list
 * print_list - check the code for     Holberton School students.
+* @h: singly linked list
 * Return: the number of nodes printed.
 */
 size_t print_list(const list_t *h)
